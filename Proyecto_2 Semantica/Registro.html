@@ -3,9 +3,10 @@
 <head>
 <meta charset='UTF-8'>
 <title> Registro </title>
-<h1> REGISTRO DE CUENTA </h1>
+<h1><b> REGISTRO DE CUENTA </b> </h1>
 </head>
-<body>
+<body style='background-color: lightblue'>
+<form>
 <label for='nombre'> Nombre: </label>
 <br><input type='text' name='nombre' placeholder='Nombre(s)'>
 <br><label for='apellido'> Apellido: </label>
@@ -18,10 +19,20 @@
 <br><input type='password' name='pass2' placeholder='Verifica tu Contraseña'>
 <br><label for='tel'> Teléfono: </label>
 <br><input type='tel' name='tel' placeholder='##-####-####'>
-<br>
-<br><button type='submit'> Registrar
-<button type='submit'> Limpiar
+<br><label for='genero'> Género: </label>
+<br><input type='radio' name='genero'> Hombre
+<br><input type='radio' name='genero'> Mujer
+<br><input type='radio' name='genero'> Otro
+<label for='otro'> Especifica: </label>
+<br><input type='text' name='otro' placeholder='Especifica Género'>
+<br><input type='checkbox' name='tyc'> Acepto los
+<a href='C:\Users\PILARES\Documents\Adrian_Coquis\Proyecto_2 Semantica\tyc.html'> Terminos y Condiciones </a>
 
+<br>
+<br><button type='submit'> Registrar  </button> 
+<button type='reset'> Limpiar </button>
+<a href='C:\Users\PILARES\Documents\Adrian_Coquis\Proyecto_2 Semantica\index.html'><input type='button' value='Entrar' </a>
+</form>
 </body>
 
 
